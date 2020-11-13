@@ -1,0 +1,33 @@
+﻿<head>
+   
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" >
+        <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css" >
+   <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+
+        .content {
+            max-width: 500px;
+            margin: auto;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="content">
+     
+          <p>   Lets see what they're playing for!</p>
+        <p>This round our winner will recieve: </p>
+                    <p>{{ variable }} </p>
+
+                    <img src="/static/images/{{ variable2 }}" width="300" height="300" />
+
+                    <form action="/question.html">
+                        <input type="submit" value="Lets see the questions" />
+                    </form>
+                    <a href="answer.html" target="_blank">Host special area. Right click open as new window.</a>         
+        </div>
+
+</body>

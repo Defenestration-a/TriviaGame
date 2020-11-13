@@ -1,0 +1,44 @@
+﻿<head>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+
+        .content {
+            max-width: 500px;
+            margin: auto;
+        }
+    </style>
+    </style>
+</head>
+<body>
+    
+        <div class="content">
+    <h1>Question</h1>
+
+    <p> {{variable}}</p>
+    <img src="/static/images/{{ variable2 }}" width="300" height="300" />
+
+   <p> Who Got it Right?</p>
+    <form action='/score1.html'>
+        <input type="submit" name="p1" value="{{variable5}}">
+    </form>
+
+    <form action='/score2.html'>
+        <input type="submit" name="p2" value="{{variable6}}">
+    </form>
+
+    <form action='/score3.html'>
+        <input type="submit" name="p3" value="{{variable7}}">
+    </form>
+
+    <form action='/score4.html'>
+        <input type="submit" name="p4" value="{{variable8}}">
+    </form>
+
+
+      
+</body>
