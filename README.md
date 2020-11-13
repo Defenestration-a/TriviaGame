@@ -1,5 +1,5 @@
 # TriviaGame
-This is a very simple, very rough, trivia game I made to learn somethings.
+This is a very simple, very rough, trivia game I made to learn some things.
 
 
 Installation:
