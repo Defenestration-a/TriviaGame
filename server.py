@@ -62,7 +62,7 @@ prizefile = 'prizes.csv'
 prizes = list(csv.reader(open(prizefile)))
 
 #creates the sweep
-#what a shit way to do this, I could have used a loop instead, but I don't feel like thinking right now
+#what a bad way to do this, I could have used a loop instead, but I don't feel like thinking right now
 def generateSweep():
     random.shuffle(sweeps)
     global si1
@@ -187,7 +187,7 @@ def index():
 
 
 
-#This is the most assbackwards way of doing this, maybe in a future release I'll figure out how to fix it, but it's like this because I couldn't figure out how to increment a score based on one button
+#This is the most backwards way of doing this, maybe in a future release I'll figure out how to fix it, but it's like this because I couldn't figure out how to increment a score based on one button
 @app.route('/score.html')
 def scoreboard():
     global p1
@@ -289,7 +289,7 @@ def sweepz():
 
     return render_template('final.html', variable1=p1.name, variable2=p2.name, variable3=p3.name, variable4=p4.name, sin = si1.name, si2n = si2.name,si3n = si3.name, si4n = si4.name, si5n = si5.name, si6n = si6.name, si7n = si7.name, si8n = si8.name, si9n = si9.name, sip1 = si1.pic, sip2 = si2.pic,sip3 = si3.pic,sip4 = si4.pic,sip5 = si5.pic,sip6 = si6.pic,sip7 = si7.pic,sip8 = si8.pic,sip9 = si9.pic,)
 
-#this is also a backwards algorithim, but it works hopefully
+#this is also a backwards algorithim, but it works 
 @app.route("/sweep", methods=["GET","POST"])
 def sweep():
     global p1
