@@ -5,9 +5,13 @@ This is a very simple, very rough, trivia game I made to learn somethings.
 Installation:
 
 1)Extract the folder to your desktop. 
+
 2)Install Python 3.8 - https://www.microsoft.com/en-us/p/python-38/9mssztt1n39l?activetab=pivot:overviewtab easiest way is through the windows store
+
 3)Once python is installed, install the flask dependency for python. To do this open an elevated commandline window and type 'pip install flask'
+
 4)Go to the install folder and select server.py, if done correctly you should get a console window that says" Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)", if you don't see anything that means it crashed meaning you didn't install flask or python correctly.
+
 5)open a web browser(chrome) and navigate to http://localhost:5000/index.html
 
 And there you go, the thing should work.
